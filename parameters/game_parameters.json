@@ -1,0 +1,31 @@
+{
+  "SETTINGS": {
+  "main_window": {"size": [1000,400],"color": [216,223,235]},
+  "p1_field": {"size": [300,300],"color": [52,111,207],"xy": [180,50],"cell_size": 30,"num_cells_per_row":10},
+  "p2_field":{"size": [300,300],"color": [52,111,207],"xy": [520,50],"cell_size": 30,"num_cells_per_row":10},
+  "p1_inventory":{"size": [100,300],"color": [52,207,121],"xy": [50,50]},
+  "p2_inventory":{"size": [100,300],"color": [52,207,121],"xy": [850,50]},
+  "status":{"size": [500,60],"color": [220,220,220],"xy": [50,350]},
+  "debug_button":{"size": [80,20],"xy":[820,90],"color_on": [25,171,18],"color_off":[220,220,220]},
+  "play_button":{"size": [100,40],"xy":[820,270],"color_on": [25,171,18],"color_off":[25,171,50]},
+  "rndm_button":{"size": [80,20],"xy":[820,160],"color_on": [25,171,18],"color_off":[220,220,220]},
+  "rndmplus_button":{"size": [100,20],"xy":[820,190],"color_on": [25,171,18],"color_off":[220,220,220]},
+  "start_button":{"size": [80,20],"xy":[60,60],"color_on": [25,171,18],"color_off":[220,220,220]},
+  "carrier_button":{"size": [80,20],"xy":[60,60],"color_on": [25,171,18],"color_off":[220,220,220]},
+  "battleship_button":{"size": [80,20],"xy":[60,90],"color_on": [25,171,18],"color_off":[220,220,220]},
+  "cruiser_button":{"size": [80,20],"xy":[60,120],"color_on": [25,171,18],"color_off":[220,220,220]},
+  "destroyer_button":{"size": [80,20],"xy":[60,150],"color_on": [25,171,18],"color_off":[220,220,220]},
+  "ship_colors":{"hit": [168, 50, 64],"miss": [218, 222, 13],"hit-sunk": [100,100,100],"sunk": [100,100,100],"setup": [244,160,0],"game": [220,220,220],"field":[52,111,207]}
+  },
+  "SHIPS": {
+    "carrier":{"num_cells": 4, "num_ships_max": 1},
+    "battleship":{"num_cells": 3,"num_ships_max":2},
+    "cruiser":{"num_cells": 2,"num_ships_max": 3},
+    "destroyer":{"num_cells":1,"num_ships_max":4}
+  },
+  "MESSAGES":{
+    "start":{"xy": [40,20],"text_location":"../parameters/messages.txt", "section_name":"--GREETING--", "section_font": 30,"section_end":"--ENDOFSECTION--"},
+    "end": {"xy": [140,140],"text_location":"../parameters/messages.txt","section_name":"--GOODBYE--", "section_font": 30,"section_end":"--ENDOFSECTION--"},
+    "intro": {"xy": [40,70],"text_location":"../parameters/messages.txt","section_name":"--INTRO--", "section_font": 18,"section_end":"--ENDOFSECTION--"} 
+  }
+}

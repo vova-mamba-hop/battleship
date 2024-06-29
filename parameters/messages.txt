@@ -1,0 +1,20 @@
+--GREETING--
+Welcome to the game of Battleship!
+--ENDOFSECTION--
+ 
+--GOODBYE--
+Thank you for playing.
+--ENDOFSECTION--
+
+--INTRO--
+This is a standard game of battleship. You are allowed:
+1 carrier (4 cells),
+2 battleships (3 cells),
+3 cruisers (2 cells), 
+4 destroyers (1 cell).
+You can remove the placed ship by clicking on the cell again.
+To start the game select an opponent type and whether or not you would like to generate debug logs.
+Currently there are only 2 opponents:
+Random - randomly makes moves and retains no memory of previous moves.
+Random Plus - also randomly makes moves but if it hits a ship, it will explore the neighboring cells until the ship is sunk.
+--ENDOFSECTION--
